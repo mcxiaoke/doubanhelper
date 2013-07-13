@@ -1,0 +1,41 @@
+{
+    "app_name":{
+        "message":"Douban Helper",
+        "description": ""
+    } ,
+
+    "menu_status_api":{
+        "message":"View Status Api",
+        "description": ""
+    } ,
+
+    "menu_profile_api":{
+        "message":"View User Profile Api",
+        "description": ""
+    } ,
+
+    "menu_timeline_api":{
+        "message":"View User Timeline Api",
+        "description": ""
+    } ,
+
+//    "app_name":{
+//        "message":"Douban Helper",
+//        "description": ""
+//    } ,
+//
+//    "app_name":{
+//        "message":"Douban Helper",
+//        "description": ""
+//    } ,
+//
+//    "app_name":{
+//        "message":"Douban Helper",
+//        "description": ""
+//    } ,
+
+    "app_description":{
+        "message":"Douban Helper,a simple tool for developers worked with douban.com api, it help you to view api json data when click realated links in douban.com",
+        "description": ""
+    }
+}

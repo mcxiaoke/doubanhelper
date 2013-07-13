@@ -1,0 +1,26 @@
+{
+    "app_name":{
+        "message":"豆瓣开发助手",
+        "description": ""
+    } ,
+
+    "menu_status_api":{
+        "message":"查看广播API",
+        "description": ""
+    } ,
+
+    "menu_profile_api":{
+        "message":"查看用户资料API",
+        "description": ""
+    } ,
+
+    "menu_timeline_api":{
+        "message":"查看用户时间线API",
+        "description": ""
+    } ,
+
+    "app_description":{
+        "message":"豆瓣开发助手，用于简化使用豆瓣API的客户端的开发工作，在豆瓣网页上右键点击广播或个人链接，可以直接访问来自API的详细数据，可以方便的对比数据，查找错误。",
+        "description": ""
+    }
+}
