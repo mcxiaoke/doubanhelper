@@ -1,9 +1,6 @@
 var DOUBAN_API_HOST="https://api.douban.com/v2";
 var DOUBAN_API_SHUO_HOST="https://api.douban.com/shuo/v2"
 
-
-
-chrome.tabs.onUpdated.addListener(onTabChanged);
 createStatusMenu();
 createUserMenu();
 
@@ -116,6 +113,7 @@ function onUserTimeline(info,tab){
 }
 
 function onTabChanged(tabId, changeInfo, tab){
+    if(tag.g){}
     chrome.pageAction.show(tabId);
 }
 
