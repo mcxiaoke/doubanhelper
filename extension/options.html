@@ -1,21 +1,33 @@
-<html>
-<head><title>Options</title></head>
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Options</title>
+</head>
 
 <body>
+     <div>
+<form id="form" >
+    <fieldset>
+        <legend>OAuth Information</legend>
+   <div>Api Key:<br /><input type="text" id="api_key" name="key" /></div>
+    <div>Api Secret:<br /><input type="text" id="secret" name="secret" /></div>
+    <div>Access Token:<br /><input type="text" id="token" name="token" /> </div>
+    <div><button type="button" id="save">Save</button></div>
+    <div><button type="button" id="clear">Clear</button></div>
+    </fieldset>
+</form>
 
-<!--Favorite Color:
-<select id="color">
-    <option value="red">red</option>
-    <option value="green">green</option>
-    <option value="blue">blue</option>
-    <option value="yellow">yellow</option>
-</select>
+         <div id="oauth"></div>
 
-<br>
-<div id="status"></div>
-<button id="save">Save</button>-->
+         <div id="tips"></div>
+
+         <div id="status" ></div>
+
+         <div id="color" ></div>
+    </div>
 </body>
 
-<script src="options.js"></script>
+<script src="js/options.js"></script>
 
 </html>

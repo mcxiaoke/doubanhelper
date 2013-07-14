@@ -3,6 +3,10 @@ var DOUBAN_API_SHUO_HOST="https://api.douban.com/shuo/v2"
 
 createStatusMenu();
 createUserMenu();
+chrome.browserAction.onClicked.addListener(function(tab) {
+    chrome.tabs.executeScript(null,
+        {code:"document.body.bgColor='red'"});
+});
 
 
 function createStatusMenu(){
