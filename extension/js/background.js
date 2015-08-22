@@ -1,5 +1,5 @@
 var DOUBAN_API_HOST="https://api.douban.com/v2";
-var DOUBAN_API_SHUO_HOST="https://api.douban.com/shuo/v2"
+var DOUBAN_API_SHUO_HOST="https://api.douban.com/v2/lifestream"
 
 createStatusMenu();
 createUserMenu();
@@ -35,16 +35,16 @@ function createUserMenu(){
 
 function openStatusApiUrl(statusId){
 //    window.open(DOUBAN_API_SHUO_HOST+"/statuses/"+statusId);
-    openPopupWindow(DOUBAN_API_SHUO_HOST+"/statuses/"+statusId);
+    openPopupWindow(DOUBAN_API_SHUO_HOST+"/status/"+statusId);
 }
 
 function openUserProfileApiUrl(userId){
 //    window.open(DOUBAN_API_SHUO_HOST+"/users/"+userId);
-    openPopupWindow(DOUBAN_API_SHUO_HOST+"/users/"+userId);
+    openPopupWindow(DOUBAN_API_SHUO_HOST+"/user/"+userId);
 }
 
 function openUserTimelineApiUrl(userId){
-    window.open(DOUBAN_API_SHUO_HOST+"/statuses/user_timeline/"+userId);
+    window.open(DOUBAN_API_SHUO_HOST+"/user_timeline/"+userId);
 }
 
 function openPopupWindow(url){
